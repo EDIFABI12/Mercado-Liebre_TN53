@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--grisClaro);
+}
+
+a {
+  text-decoration: none;
+  color: var(--negro);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ****HEADER**** */
+
+header {
+  /* border: 3px solid green; */
+  background-color: var(--amarillo);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container {
+  /* border: 3px solid red; */
+  display: none;
+}
+
+.burguer-container {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.logo-bar-container {
+  /* border: 3px solid gray; */
+  display: flex;
+}
+
+.card-container {
+  /* border: 3px solid gray; */
+  padding: 15px;
+}
+
+.logo {
+  /* border: 3px solid pink; */
+  width: 50%;
+  padding: 10px;
+}
+
+.search-button-container {
+  /* border: 3px solid pink; */
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.serach-container {
+  /* border: 3px solid brown; */
+  display: flex;
+  height: 25px;
+  width: 90%;
+}
+
+.card-title {
+  font-weight: 400;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.card-title i {
+  margin-right: 10px;
+}
+
+input {
+  width: 95%;
+  border: none;
+  background-color: var (--blanco);
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  width: 15%;
+  padding: 1px;
+  border: none;
+  background-color: var (--blanco);
+  border-radius: 0 5px 5px 0;
+}
+
+.burguer-menu {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  color: var(--blanco);
+  background-color: var(--azul);
+}
+/** FIN HEADER **/
+
+/** PRODUCTOS */
+
+main h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.last-visit,.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last-visit,.products {
+  width: 95%;
+}
+
+.products article {
+  background: var(--blanco);
+  padding: 10px 0;
+}
+
+.products article i {
+  color: var(--verde);
+  border: 1px solid var(--verde);
+  background: var(--blanco);
+  border-radius: 50%;
+  padding: 8px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+.main-article {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+  border-top: 1px solid var(--grisClaro);
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount {
+    width: 70%;
+    color: var(--verde);
+}
+
+.discount, .description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3, .description {
+    color: var(--grisOscuro);
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+.offers,.products {
+  width: 95%;
+}
+
+main section div.products article i {
+  transition: transform 1s;
+}
+
+main section div.products article:hover i {
+  transform: rotate(-90deg);
+}
+
+
+footer {
+  background-color: white;
+}
+  
+footer .fas {
+  color: #1259c3;
+}
+  
+footer section p {
+  margin-top: 5px;
+}
+  
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: 475ms;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
